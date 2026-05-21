@@ -3,5 +3,5 @@ class Product < ApplicationRecord
   has_many :orders, through: :order_items
 
   validates :title, presence: true
-  validates :price, numericality: { greater_than:0 }
+  validates :price, numericality: { greater_than: 0 }
 end
