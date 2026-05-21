@@ -63,6 +63,6 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-  gem 'telegram-bot'
-  gem 'dotenv-rails', groups: [:development, :test]
+  gem "telegram-bot"
+  gem "dotenv-rails", groups: [ :development, :test ]
 end
